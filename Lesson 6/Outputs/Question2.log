@@ -1,0 +1,9 @@
+Started by user Jenkins
+Running as SYSTEM
+Building in workspace C:\Users\deban\.jenkins\workspace\l6-que2
+[l6-que2] $ cmd /c call C:\Users\deban\AppData\Local\Temp\jenkins7466192684036763892.bat
+
+C:\Users\deban\.jenkins\workspace\l6-que2>call "C:\Users\deban\.jenkins\workspace\l6-que1\Lesson 6\Question2.bat"  
+Displaying content of que1.txt using PowerShell:
+Ade BanjoADE 
+Finished: SUCCESS

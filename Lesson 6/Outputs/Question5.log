@@ -1,0 +1,4 @@
+0 8 * * *
+
+Spread load evenly by using ‘H 8 * * *’ rather than ‘0 8 * * *’
+Would last have run at Sunday, 23 March 2025, 08:00:00 Greenwich Mean Time; would next run at Monday, 24 March 2025, 08:00:00 Greenwich Mean Time.

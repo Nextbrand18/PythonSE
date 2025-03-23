@@ -1,0 +1,14 @@
+Started by user Jenkins
+Running as SYSTEM
+Building in workspace C:\Users\deban\.jenkins\workspace\l6-que3
+[l6-que3] $ cmd /c call C:\Users\deban\AppData\Local\Temp\jenkins16509064703726358031.bat
+
+C:\Users\deban\.jenkins\workspace\l6-que3>call "C:\Users\deban\.jenkins\workspace\l6-que1\Lesson 6\Question3.bat"  
+Getting free disk space using PowerShell...
+
+FreeSpace(GB)
+-------------
+        57.28
+
+
+Finished: SUCCESS
