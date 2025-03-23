@@ -1,0 +1,10 @@
+Started by user Jenkins
+Running as SYSTEM
+Building in workspace C:\Users\deban\.jenkins\workspace\l6-que4
+[l6-que4] $ cmd /c call C:\Users\deban\AppData\Local\Temp\jenkins6707023259360182876.bat
+
+C:\Users\deban\.jenkins\workspace\l6-que4>call "C:\Users\deban\.jenkins\workspace\l6-que1\Lesson 6\Question4.bat"  
+Checking if the file exists to move...
+        1 file(s) moved.
+File moved and replaced successfully!
+Finished: SUCCESS

@@ -1,0 +1,44 @@
+Started by user Jenkins
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in C:\Users\deban\.jenkins\workspace\l6-que6-pipeline
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Create Text File)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] bat
+Access is denied.
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Read and Print Text File)
+Stage "Read and Print Text File" skipped due to earlier failure(s)
+[Pipeline] getContext
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Print Free Disk Space)
+Stage "Print Free Disk Space" skipped due to earlier failure(s)
+[Pipeline] getContext
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Move Text File)
+Stage "Move Text File" skipped due to earlier failure(s)
+[Pipeline] getContext
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Declarative: Post Actions)
+[Pipeline] echo
+Pipeline finished.
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+ERROR: script returned exit code 1
+Finished: FAILURE
