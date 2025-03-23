@@ -1,4 +1,5 @@
 # Ignore Python bytecode files
+WorldOfGames/__pycache__/
 __pycache__/
 *.py[cod]
 
