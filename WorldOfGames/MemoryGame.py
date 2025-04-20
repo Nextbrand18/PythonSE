@@ -64,14 +64,14 @@ def is_list_equal(seq, ilist):
 # ilist = get_list_from_user(dif)
 # #print(ilist)
 
-def play():
+def play(Difficulty):
     """Starts the game, generates a number, gets user input, and determines if they won."""
-    dif = 2   # Set the difficulty level (can be changed dynamically)
+    #Difficulty = 2   # Set the difficulty level (can be changed dynamically)
 
     for attempt in range(3):  # Allow up to 3 attempts
-        seq = generate_sequence(dif)
+        seq = generate_sequence(Difficulty)
         display_list_for_duration(seq)
-        ilist = get_list_from_user(dif)
+        ilist = get_list_from_user(Difficulty)
 
         # Uncomment the next two lines to see the secret number and user's guess (for testing)
         # print(f"Secret number: {secret_number}")
@@ -88,4 +88,4 @@ def play():
     return False
 
 # Run the game
-play()
+#play(Difficulty)

@@ -39,9 +39,9 @@ def compare_results(secret_number, user_guess):
     """Compares the generated secret number with the user's guess."""
     return secret_number == user_guess
 
-def play():
+def play(Difficulty):
     """Starts the game, generates a number, gets user input, and determines if they won."""
-    Difficulty = 10  # Set the difficulty level (can be changed dynamically)
+    #Difficulty = 10  # Set the difficulty level (can be changed dynamically)
 
     for attempt in range(3):  # Allow up to 3 attempts
         secret_number = generate_number(Difficulty)
@@ -62,4 +62,4 @@ def play():
     return False
 
 # Run the game
-play()
+#play(Difficulty)

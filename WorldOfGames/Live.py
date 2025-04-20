@@ -31,6 +31,7 @@ def welcome():
         else:
             print (f"Hello {name} and welcome to the World of Games (WoG).\n" "Here you can find many cool games to play.")
             print ("\n")
+        return name
             
 
 
@@ -78,7 +79,7 @@ def load_game():
         try:
             game_difficulty = int(input("Please choose game difficulty from 1 to 5: "))
             if 1 <= game_difficulty <= 5:
-                print(f"You chose game {game_choice} with difficulty {game_difficulty}!")
+                #print(f"You chose game {game_choice} with difficulty {game_difficulty}!")
                 return game_choice, game_difficulty  # Return valid values
             else:
                 print(f"Invalid difficulty. Attempts left: {2 - attempt}")
@@ -88,12 +89,20 @@ def load_game():
         print("Too many failed attempts. Exiting...")
         return None, None  # Exit function with failure state
 
+
+def main():
+    welcome()
+    load_game()                
+
+
+
+if __name__ == '__main__':
+    main()               
+
+
 # # Example usage:
 # game, difficulty = load_game()
 # if game is not None and difficulty is not None:
 #     print(f"Game: {game}, Difficulty: {difficulty}")
 # else:
 #     print("Failed to select a game. Please try again later.")
-
-                
-            
