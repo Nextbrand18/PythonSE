@@ -1,0 +1,14 @@
+docker build -t getuser .
+
+docker run -it getuser
+
+docker start aa
+docker exec -it getusers bash
+
+
+docker login
+PS C:\Users\deban\Documents\Python Scripts\GlobalDev\PythonSE\Lesson9> docker tag getuser nextbrand16/getuser                  
+PS C:\Users\deban\Documents\Python Scripts\GlobalDev\PythonSE\Lesson9> docker push nextbrand16/getuser
+
+https://hub.docker.com/repository/docker/nextbrand16/getuser/general
+https://hub.docker.com/r/docker/nextbrand16/getuser

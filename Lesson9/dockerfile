@@ -1,0 +1,14 @@
+# Use the official Python image from Docker Hub
+FROM python:alpine
+
+# Set the working directory inside the container
+WORKDIR /getU
+
+# Copy your Python files into the container
+COPY . /getU
+
+# (Optional) Install dependencies if you have a requirements.txt
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# Run the main Python script
+CMD ["python", "getUser.py"]
